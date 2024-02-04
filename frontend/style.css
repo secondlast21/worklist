@@ -1,0 +1,82 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins');
+
+* {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+}
+
+nav {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  padding: 10px;
+}
+
+input {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #cdd6f4;
+  color: #1e1e2e;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #a6da95;
+  color: #1e1e2e;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #8bd5ca;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  list-style-type: none;
+  gap: 20px;
+}
+
+#card {
+  border: 2px solid #cdd6f4;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 10px 0;
+  height: 50px;
+}
+
+#card p {
+  background-color: #8aadf4;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid #8aadf4;
+}
+
+#card span {
+  background-color: #ed8796;
+  color: #1e1e2e;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #ed8796;
+}
+
+#card span:hover {
+  background-color: #1e1e2e;
+  color: #ed8796;
+  border: 1px solid #ed8796;
+}
